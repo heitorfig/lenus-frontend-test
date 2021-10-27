@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
 
-function App() {
+import Header from "./components/Header";
+import WeightTracker from "./components/WeightTracker";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box>
+      <Header>
+        <Container sx={{ minHeight: "60px", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center" }} fixed>
+          <Typography variant="h5" component="h1" sx={{ fontWeight: 700 }} color="primary">
+            Weight Tracker
+          </Typography>
+        </Container>
+      </Header>
+      <WeightTracker />
+    </Box>
   );
-}
+};
 
 export default App;
