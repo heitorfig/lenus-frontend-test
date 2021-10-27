@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/lenus-frontend-test/static/js/main.3e48ac2f.chunk.js",
+    "main.js.map": "/lenus-frontend-test/static/js/main.3e48ac2f.chunk.js.map",
+    "runtime-main.js": "/lenus-frontend-test/static/js/runtime-main.62af7613.js",
+    "runtime-main.js.map": "/lenus-frontend-test/static/js/runtime-main.62af7613.js.map",
+    "static/js/2.fbd924f4.chunk.js": "/lenus-frontend-test/static/js/2.fbd924f4.chunk.js",
+    "static/js/2.fbd924f4.chunk.js.map": "/lenus-frontend-test/static/js/2.fbd924f4.chunk.js.map",
+    "static/js/3.d50bbbe2.chunk.js": "/lenus-frontend-test/static/js/3.d50bbbe2.chunk.js",
+    "static/js/3.d50bbbe2.chunk.js.map": "/lenus-frontend-test/static/js/3.d50bbbe2.chunk.js.map",
+    "index.html": "/lenus-frontend-test/index.html",
+    "static/js/2.fbd924f4.chunk.js.LICENSE.txt": "/lenus-frontend-test/static/js/2.fbd924f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62af7613.js",
+    "static/js/2.fbd924f4.chunk.js",
+    "static/js/main.3e48ac2f.chunk.js"
+  ]
+}
